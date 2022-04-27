@@ -1,7 +1,7 @@
 /*********************************************************************************
  *  Name: Seog-Jun Hong   Date: April 4, 2022
  *
- *  Heroku App URL: https://enigmatic-peak-07486.herokuapp.com/
+ *  Heroku App URL: https://stark-taiga-85001.herokuapp.com/
  *
  *  GitHub Repository URL: https://github.com/seog-jun/blog
  *
