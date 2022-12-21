@@ -455,7 +455,7 @@ blogService
   .initialize()
   .then(authData.initialize)
   .then(() => {
-    app.listen(HTTP_PORT, onHttpStart);
+    app.listen(HTTP_PORT);
   })
   .catch((err) => {
     console.log(err);
