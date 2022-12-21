@@ -455,7 +455,7 @@ blogService
   .initialize()
   .then(authData.initialize)
   .then(() => {
-    app.listen(process.env.PORT || 8080);
+    app.listen(HTTP_PORT, onHttpStart);
   })
   .catch((err) => {
     console.log(err);
