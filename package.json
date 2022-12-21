@@ -25,10 +25,7 @@
     "serve": "^14.1.2",
     "streamifier": "^0.1.1",
     "strip-js": "^1.2.0"
-  },
-  "engine": {
-    "node": "16.13.1",
-    "npm": "8.1.2"
   }
-  web: node server/index.js
+
+  
 }
