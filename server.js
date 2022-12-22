@@ -5,8 +5,8 @@
  *
  *  GitHub Repository URL: https://github.com/seog-jun/blog
  *
- *
- ********************************************************************************/
+ 
+********************************************************************************/
 
 var express = require("express");
 var blogService = require("./blog-service");
@@ -455,7 +455,7 @@ blogService
   .initialize()
   .then(authData.initialize)
   .then(() => {
-    app.listen(process.env.PORT || 8080);
+    app.listen(HTTP_PORT, onHttpStart);
   })
   .catch((err) => {
     console.log(err);

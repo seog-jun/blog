@@ -38,7 +38,7 @@ module.exports.initialize = function () {
         resolve();
       })
       .catch(() => {
-        reject("Unable to sync the database");
+        reject("Unable to sync the database!!!");
       });
   });
 };
