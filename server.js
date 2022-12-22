@@ -8,6 +8,7 @@
  
 ********************************************************************************/
 
+require("dotenv").config();
 var express = require("express");
 var blogService = require("./blog-service");
 const blogData = require("./blog-service");
